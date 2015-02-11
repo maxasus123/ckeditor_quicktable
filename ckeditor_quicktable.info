@@ -1,0 +1,4 @@
+name = CKEditor Quicktable
+description = This plugin to create a table easily.
+core = 7.x
+dependencies[] = ckeditor

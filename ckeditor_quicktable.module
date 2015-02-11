@@ -1,0 +1,18 @@
+<?php
+/**
+ * @file
+ * The module file for ckeditor_widgets module.
+ */
+
+/**
+ * CKEditor plugin on the profile setting page.
+ */
+function ckeditor_quicktable_ckeditor_plugin() {
+  return array(
+    'ckeditor_quicktable' => array(
+      'name' => 'quicktable',
+      'desc' => t('Plugin Quicktable create a table easily.dependencies()'),
+      'path' => drupal_get_path('module', 'ckeditor_quicktable') . '/plugins/quicktable/',
+    ),
+  );
+}
